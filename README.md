@@ -11,4 +11,4 @@ node main.js sign
 The word 'sign' in the third argument is a placeholder for the users zodiac sign.
 ## Disclaimer
 I'm not into any kind of horoscopes, this was written purely for fun and you should not take anything this program throws out seriously. Many outputs will not make sense anyway. The data the program uses is only there for testing purposes.
-![](./Logo.png "Logo")
+![](./logo.png "Logo")

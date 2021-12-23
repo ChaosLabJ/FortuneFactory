@@ -1,6 +1,6 @@
 # FortuneFactory
 ## Introduction
-FortuneFactory is a program, which will return random fortune cookie sayings. It's a small project created within Codecademy's Full Stack Java Script course.
+FortuneFactory is a program, which will return random fortune cookie sayings. It's a small starting project created within Codecademy's Full Stack Java Script course.
 The different zodiac signs differ in the probability of certain message components being different, a Leo for example is more likely to do well with a Gemini.
 ## Requirements
 Any modern version of [node.js](https://nodejs.org/en/).

@@ -1,4 +1,5 @@
-// This is my first piece of code on GitHub ever, so don't be to harsh with me when reading it! If you find any mistaked or instances of bad practice feel free to reach out.
+// This is my first piece of code on GitHub ever, so don't be to harsh with me when reading it! 
+//If you find any mistaked or instances of bad practice feel free to reach out.
 
 
 
@@ -11,9 +12,12 @@
 function getRandEntryByPercentageArray(percentageArray) {
     let currentEntry = 0;
     let sumSoFar = 0;
-    let i = 1;
-    let randNum = Math.floor((Math.random() * getTotalPercentage(percentageArray)) + 1); // Defined by the percentage sum instead of 100 so that total percentages under 100 still work. When there is a total percentage of 75 for example the entry it chooses would be calculated with the number 75 instead of 100 effectively returning the same as if we went with a total of 100 and reran if the result was undefined.
-    while (i < 100) {
+    let randNum = Math.floor((Math.random() * getTotalPercentage(percentageArray)) + 1); 
+/* Defined by the percentage sum instead of 100 so that total percentages under 100 still work. 
+When there is a total percentage of 75 for example the entry it chooses would be calculated with the number 75 instead of 100 
+effectively returning the same as if we went with a total of 100 and reran if the result was undefined. */
+
+    for (i=1; i++; < 100) {
         if ((percentageArray[currentEntry][1] + sumSoFar) <= i) {
             sumSoFar += percentageArray[currentEntry][1];
             currentEntry++;
